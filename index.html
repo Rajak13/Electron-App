@@ -1,18 +1,35 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>Harmony Chat</title>
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
-    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
-<body>
-    <h1>Hello World!</h1>
-    <p>Current theme source: <strong id="theme-source">System</strong></p>
 
-    <button id="toggle-dark-mode">Toggle Dark Mode</button>
-    <button id="reset-to-system">Reset to System Theme</button>
+<body>
+    <div class="container">
+        <div class="content-left">
+            <h1>Looking for a new chat experience?</h1>
+            <p class="subtitle">Here's a unique way to chat</p>
+            <p class="tagline">See it for yourself</p>
+
+            <div class="buttons">
+                <button id="login-btn" class="btn btn-outline">Login</button>
+                <button id="register-btn" class="btn btn-outline">Sign Up</button>
+            </div>
+        </div>
+
+        <div class="content-right">
+            <div class="image-circle">
+                <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80"
+                    alt="Person using phone" />
+            </div>
+        </div>
+    </div>
 
     <script src="renderer.js"></script>
 </body>
+
 </html>
